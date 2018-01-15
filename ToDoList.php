@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link href="StyleSheet.css" rel="stylesheet" media="screen">
 <html>
 <body>
 
@@ -60,7 +61,7 @@ echo "</table>";
 mysqli_close($con);
 ?>
 <main>
-<iframe name="Result" style="border:none;"></iframe>
+<iframe name="Result" height="250" width="400" style="border:none;"></iframe>
 </main>
 </body>
 </html>

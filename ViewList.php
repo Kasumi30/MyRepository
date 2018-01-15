@@ -13,7 +13,7 @@ $con =mysqli_connect("localhost","root","","todolist");
 	echo"Failed to Connect" . mysqli_connect_error();
 	}
 
-$result = mysqli_query($con,"SELECT * FROM tasks");
+$result = mysqli_query($con,"SELECT * FROM tasks ORDER BY `tasks`.`EndDate` DESC");
 echo "<table border='.5'>";
 echo "<tr>";
 echo "<th>Task Name</th>";
